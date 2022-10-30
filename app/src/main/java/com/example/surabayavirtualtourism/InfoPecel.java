@@ -16,7 +16,7 @@ public class InfoPecel extends AppCompatActivity {
 
     public void kuliner(View view){
         Intent a = new Intent(InfoPecel.this,
-                MainActivity.class);
+                KulinerFragment.class);
         startActivity(a);
     }
 }

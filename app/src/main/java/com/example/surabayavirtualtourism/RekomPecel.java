@@ -16,7 +16,7 @@ public class RekomPecel extends AppCompatActivity {
 
     public void kuliner(View view){
         Intent a = new Intent(RekomPecel.this,
-                MainActivity.class);
+                KulinerFragment.class);
         startActivity(a);
     }
 }
